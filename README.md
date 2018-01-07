@@ -3,7 +3,7 @@
 This is simple linear algebra for C# easy to understand
 
 ##Functions
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Functions")
+![alt text](https://github.com/HectorPulido/Simple_Linear_Algebra/blob/master/Img/Functions.png?raw=true "Functions")
 
 ```csharp
 double[,] a1 = { { 10, 20, 30 }, { 1, 3, 4 } };
