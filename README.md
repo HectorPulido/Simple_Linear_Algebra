@@ -3,6 +3,9 @@
 This is simple linear algebra for C# easy to understand
 
 ##Functions
+
+All usable functions 
+
 ![alt text](https://github.com/HectorPulido/Simple_Linear_Algebra/blob/master/Img/Functions.png?raw=true "Functions")
 
 ```csharp
