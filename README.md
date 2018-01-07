@@ -2,7 +2,7 @@
 
 This is simple linear algebra for C# easy to understand
 
-##Functions
+## Functions
 
 All usable functions 
 
