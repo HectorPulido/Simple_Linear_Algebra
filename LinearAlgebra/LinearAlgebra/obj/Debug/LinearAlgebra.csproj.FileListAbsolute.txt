@@ -1,0 +1,6 @@
+c:\users\asus\documents\visual studio 2015\Projects\LinearAlgebra\LinearAlgebra\bin\Debug\LinearAlgebra.exe.config
+c:\users\asus\documents\visual studio 2015\Projects\LinearAlgebra\LinearAlgebra\bin\Debug\LinearAlgebra.exe
+c:\users\asus\documents\visual studio 2015\Projects\LinearAlgebra\LinearAlgebra\bin\Debug\LinearAlgebra.pdb
+c:\users\asus\documents\visual studio 2015\Projects\LinearAlgebra\LinearAlgebra\obj\Debug\LinearAlgebra.csprojResolveAssemblyReference.cache
+c:\users\asus\documents\visual studio 2015\Projects\LinearAlgebra\LinearAlgebra\obj\Debug\LinearAlgebra.exe
+c:\users\asus\documents\visual studio 2015\Projects\LinearAlgebra\LinearAlgebra\obj\Debug\LinearAlgebra.pdb
