@@ -184,7 +184,7 @@ namespace LinearAlgebra
         {
             double[,] random = new double[x, y];
             MatrixLoop((i, j) => {
-                random[i, j] = r.Nextdouble();
+                random[i, j] = r.NextDouble();
             }, x, y);
             return  (random);
         }
