@@ -64,6 +64,11 @@ Console.WriteLine("Matrix m, a with a added row of zeros");
 Console.WriteLine(m.ToString());
 ```
 
+## How use it
+Just go to your project (on visual studio) and import the script LinearAlgebra.cs
+
+![alt text](https://github.com/HectorPulido/Simple_Linear_Algebra/blob/master/Img/HowToUse.png?raw=true "HowToUseIt")
+
 
 Please consider Support on Patreon
 https://www.patreon.com/HectorPulido
