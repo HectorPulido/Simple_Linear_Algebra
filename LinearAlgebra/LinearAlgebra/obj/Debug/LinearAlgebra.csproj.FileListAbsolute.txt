@@ -7,3 +7,6 @@ c:\users\asus\documents\visual studio 2015\Projects\LinearAlgebra\LinearAlgebra\
 C:\Users\ASUS\Downloads\FromGithub\Simple_Linear_Algebra\LinearAlgebra\LinearAlgebra\bin\Debug\LinearAlgebra.exe.config
 C:\Users\ASUS\Downloads\FromGithub\Simple_Linear_Algebra\LinearAlgebra\LinearAlgebra\obj\Debug\LinearAlgebra.exe
 C:\Users\ASUS\Downloads\FromGithub\Simple_Linear_Algebra\LinearAlgebra\LinearAlgebra\obj\Debug\LinearAlgebra.pdb
+C:\Users\ASUS\Downloads\FromGithub\Simple_Linear_Algebra\LinearAlgebra\LinearAlgebra\bin\Debug\LinearAlgebra.exe
+C:\Users\ASUS\Downloads\FromGithub\Simple_Linear_Algebra\LinearAlgebra\LinearAlgebra\bin\Debug\LinearAlgebra.pdb
+C:\Users\ASUS\Downloads\FromGithub\Simple_Linear_Algebra\LinearAlgebra\LinearAlgebra\obj\Debug\LinearAlgebra.csprojResolveAssemblyReference.cache

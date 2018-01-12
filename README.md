@@ -69,7 +69,7 @@ Just go to your project (on visual studio) and import the script LinearAlgebra.c
 
 ![alt text](https://github.com/HectorPulido/Simple_Linear_Algebra/blob/master/Img/HowToUse.png?raw=true "HowToUseIt")
 
-
+## Patreon
 Please consider Support on Patreon
 https://www.patreon.com/HectorPulido
 

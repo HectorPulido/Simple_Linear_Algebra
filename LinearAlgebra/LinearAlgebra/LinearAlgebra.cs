@@ -3,7 +3,7 @@
 namespace LinearAlgebra
 {
     struct Matrix
-    {
+    {        
         double[,] _matrix;
         public double[,] matrix { get { return (double[,])_matrix.Clone(); } set { _matrix = value; } }
         public int x { get { return _matrix.GetLength(0); } }
