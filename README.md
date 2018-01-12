@@ -65,7 +65,7 @@ Console.WriteLine(m.ToString());
 ```
 ## Helper 
 Right now there are some additional useful functions on Helper.cs
-```
+```csharp
 if (Helper.SaveMatrix(a1, "a1.dat"))
 	Console.WriteLine("a1, saved");
 
@@ -86,8 +86,8 @@ Helper.SaveImage(img[1], img[2], img[3], "ColorImg.bmp"); //Saved on Color
 ```
 ## What can I do with this
 You can use this as you want, as matrix calculator or something more complex, like machine learnign 
-https://github.com/HectorPulido/Vectorized-multilayer-neural-network
-https://github.com/HectorPulido/Simple-vectorized-mono-layer-perceptron
+1. Multilayer perceptron (Neural network) https://github.com/HectorPulido/Vectorized-multilayer-neural-network
+2. Monolayer perceptron (Neural network) https://github.com/HectorPulido/Simple-vectorized-mono-layer-perceptron
 
 ## How use it
 Just go to your project (on visual studio) and import the script LinearAlgebra.cs
