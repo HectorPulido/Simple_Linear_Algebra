@@ -63,11 +63,38 @@ Matrix m = a.AddRow(Matrix.Zeros(1, 3));
 Console.WriteLine("Matrix m, a with a added row of zeros");
 Console.WriteLine(m.ToString());
 ```
+## Helper 
+Right now there are some additional useful functions on Helper.cs
+```
+if (Helper.SaveMatrix(a1, "a1.dat"))
+	Console.WriteLine("a1, saved");
+
+Matrix _a1;
+if(Helper.LoadMatrix(out _a1, "a1.dat"))
+	Console.WriteLine("a1, loaded \n " + _a1.ToString());
+
+Console.WriteLine("Images can be loaded, and the size can be changed");
+Matrix[] img = Helper.LoadImage("Image.bmp", 15, 15);
+Console.WriteLine(img[0]); //BW
+Console.WriteLine(img[1]); //R
+Console.WriteLine(img[2]); //G
+Console.WriteLine(img[3]); //B
+
+Console.WriteLine("Images can be Saved");
+Helper.SaveImage(img[0], "BWImg.bmp"); // Saved on BW
+Helper.SaveImage(img[1], img[2], img[3], "ColorImg.bmp"); //Saved on Color
+```
+## What can I do with this
+You can use this as you want, as matrix calculator or something more complex, like machine learnign 
+https://github.com/HectorPulido/Vectorized-multilayer-neural-network
+https://github.com/HectorPulido/Simple-vectorized-mono-layer-perceptron
 
 ## How use it
 Just go to your project (on visual studio) and import the script LinearAlgebra.cs
-
 ![alt text](https://github.com/HectorPulido/Simple_Linear_Algebra/blob/master/Img/HowToUse.png?raw=true "HowToUseIt")
+
+## Future
+There are a lot of features I want to add, like a Console, but I want to focus on the Linear Algebra, to make it more complex and deep
 
 ## Patreon
 Please consider Support on Patreon
