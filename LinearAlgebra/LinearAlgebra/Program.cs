@@ -70,15 +70,15 @@ namespace LinearAlgebra.ExampleProgram
                 Console.WriteLine("a1, loaded \n " + _a1.ToString());
 
             Console.WriteLine("Images can be loaded, and the size can be changed");
-            Matrix[] img = Helper.LoadImage("Image.bmp", 15, 15);
+            Matrix[] img = ImageHelper.LoadImage("Image.bmp", 15, 15);
             Console.WriteLine(img[0]); //BW
             Console.WriteLine(img[1]); //R
             Console.WriteLine(img[2]); //G
             Console.WriteLine(img[3]); //B
 
             Console.WriteLine("Images can be Saved");
-            Helper.SaveImage(img[0], "BWImg.bmp"); // Saved on BW
-            Helper.SaveImage(img[1], img[2], img[3], "ColorImg.bmp"); //Saved on Color
+            ImageHelper.SaveImage(img[0], "BWImg.bmp"); // Saved on BW
+            ImageHelper.SaveImage(img[1], img[2], img[3], "ColorImg.bmp"); //Saved on Color
             
             if (Helper.SaveCsv(Helper.MatrixToCsv(h), "a.csv"))
                 Console.WriteLine("Matrix saved on csv file"); 
