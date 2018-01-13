@@ -1,12 +1,14 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace LinearAlgebra.ExampleProgram
 {
     class Program
     {
         static void Main(string[] args)
-        {            
-            double[,] a1 = { { 10, 20, 30 }, { 1, 3, 4 } };
+        {
+            double[,] a1 = { { 10, 20, 30 },
+                             {  1,  3,  4 } };
 
             Matrix a = new Matrix(a1);
             Console.WriteLine("Matrix a");
@@ -60,11 +62,11 @@ namespace LinearAlgebra.ExampleProgram
             Console.WriteLine("Matrix m, a with a added row of zeros");
             Console.WriteLine(m.ToString());
 
-            if (Helper.SaveMatrix(a1, "a1.dat"))
-                Console.WriteLine("a1, saved");
+            if (Helper.SaveMatrix(a, "a1.dat"))
+                Console.WriteLine("a, saved");
 
             Matrix _a1;
-            if(Helper.LoadMatrix(out _a1, "a1.dat"))
+            if (Helper.LoadMatrix(out _a1, "a1.dat"))
                 Console.WriteLine("a1, loaded \n " + _a1.ToString());
 
             Console.WriteLine("Images can be loaded, and the size can be changed");
@@ -77,6 +79,19 @@ namespace LinearAlgebra.ExampleProgram
             Console.WriteLine("Images can be Saved");
             Helper.SaveImage(img[0], "BWImg.bmp"); // Saved on BW
             Helper.SaveImage(img[1], img[2], img[3], "ColorImg.bmp"); //Saved on Color
+            
+            if (Helper.SaveCsv(Helper.MatrixToCsv(h), "a.csv"))
+                Console.WriteLine("Matrix saved on csv file"); 
+                        
+            string[][] data;
+            if (Helper.ReadCsv(out data, "CsvFile.csv"))
+            {
+                Console.WriteLine("Data readed from csv file");
+                Helper.MapCsv(ref data, new Dictionary<string, string> { { "Ford" , "0" },
+                                                                         { "Chevy", "1" },
+                                                                         { "Jeep" , "2" }});
+                Console.WriteLine(Helper.CsvToMatrix(data));
+            }
 
             Console.ReadKey();
         }

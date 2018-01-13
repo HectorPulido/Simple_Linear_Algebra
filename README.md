@@ -83,6 +83,18 @@ Console.WriteLine(img[3]); //B
 Console.WriteLine("Images can be Saved");
 Helper.SaveImage(img[0], "BWImg.bmp"); // Saved on BW
 Helper.SaveImage(img[1], img[2], img[3], "ColorImg.bmp"); //Saved on Color
+
+if (Helper.SaveCsv(Helper.MatrixToCsv(h), "a.csv"))
+	Console.WriteLine("Matrix saved on csv file");                         
+	string[][] data;
+	if (Helper.ReadCsv(out data, "CsvFile.csv"))
+        {
+		Console.WriteLine("Data readed from csv file");
+                Helper.MapCsv(ref data, new Dictionary<string, string> { { "Ford" , "0" },
+                                                                         { "Chevy", "1" },
+                                                                         { "Jeep" , "2" }});
+                Console.WriteLine(Helper.CsvToMatrix(data));
+        }
 ```
 ## What can I do with this
 You can use this as you want, as matrix calculator or something more complex, like machine learnign 

@@ -138,17 +138,15 @@ namespace LinearAlgebra
         }
         public string ToString(string dec = "0.00")
         {
-            string c = "{";
+            string c = "";
             for (int i = 0; i < x; i++)
             {
-                c += "{";
                 for (int j = 0; j < y; j++)
                 {
-                    c += matrix[i, j].ToString(dec) + ", ";
+                    c += matrix[i, j].ToString(dec) + " ";
                 }
-                c += "},\n";
+                c += "\n";
             }
-            c += "}";
 
             return c;
         }
