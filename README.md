@@ -100,6 +100,7 @@ if (Helper.ReadCsv(out data, "CsvFile.csv"))
 You can use this as you want, as matrix calculator or something more complex, like machine learnign 
 1. Multilayer perceptron (Neural network) https://github.com/HectorPulido/Vectorized-multilayer-neural-network
 2. Monolayer perceptron (Neural network) https://github.com/HectorPulido/Simple-vectorized-mono-layer-perceptron
+3. Convolutional neural network https://github.com/HectorPulido/Convolutional-Neural-Network-From-Scratch
 
 ## How use it
 Just go to your project (on visual studio) and import the script LinearAlgebra.cs
